@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(images/Rectangle\ 1.png) no-repeat center center / cover;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imag {
+    padding: 35px 0 0 0;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-link {
+    padding: 40px 20px 20px;
+    color: #4D4D4D;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu-link:hover {
+    background: #C1BC45;
+}
+
+.text-nike {
+    width: 259px;
+    height: 141px;
+    flex-shrink: 0;
+    padding: 49px 1202px 6px 186px;
+}
+
+.style-nike {
+    color: #C1BC45;
+    font-family: Arial;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 200px 1202px 406px 26px;
+}
+
+.text-p {
+    color: #4D4D4D;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 220px 0 0 215px;
+}
+
+
+main {
+    width: 1000px;
+    display: flex;
+}
+
+.imageee {
+    width: 585px;
+    height: 425px;
+    padding: 50px 115px 395px;
+}
+
+.main-h1 {
+    padding: 50px 0 0 110px;
+}
+
+main p {
+    display: flex;
+    width: 585px;
+    height: 283px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 25px 0 0 110px;
+}
+
+.sport-text {
+    width: 650px;
+    border:3px solid #C3C3C3;
+    display: flex;
+    padding: 20px 25px;
+    margin: 50px 00px 25px 150px;
+}
+
+.h1-h3 {
+    padding: 5px 20px;
+}
+
+.h33 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ellipse {
+    width: 131px;   
+}
+
+.summer-text {
+    width: 650px;
+    border: 3px solid #C1BC45;
+    display: flex;
+    padding: 20px 25px;
+    margin: 0px 00px 25px 150px;
+}
+
+.h1-h3-2 {
+    padding: 5px 20px;
+}
+
+.summer-img {
+    width: 131px;
+}
+
+.h33-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sneakers-text {
+    width: 650px;
+    border: 3px solid #C3C3C3;
+    display: flex;
+    padding: 20px 25px;
+    margin: 0px 150px 25px 150px;
+}
+
+.h1-h3-3 {
+    padding: 5px 20px;
+}
+
+.sneakers-img {
+    width: 131px;
+}
+
+.h33-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cool-text {
+    width: 650px;
+    border: 3px solid #C3C3C3;
+    display: flex;
+    padding: 20px 25px;
+    margin: 0px 00px 25px 150px;    
+}
+
+.h1-h3-4 {
+    padding: 5px 20px;
+}
+
+.cool-img {
+    width: 131px;
+}
+
+.h33-4 {
+    display: flex;
+    flex-direction: column;
+} 
+
+footer {
+     background-color: rgba(217, 217, 217, 1);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-link {
+    padding: 40px 20px 20px;
+    color: #4D4D4D;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.yon-elem {
+    display: flex;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    padding: 100px 30px 100px 150px;
+}
+
+.yon-elem {
+    padding: 0px 400px 0 0;
+}
